@@ -19,8 +19,8 @@
 }
 
 body { 
-    background-color: var(--primary-light) 
-    family-font: var(--body-font); 
+    background-color: var(--primary-light); 
+    font-family: var(--body-font); 
     color: var(--primary-color); 
 }
 
@@ -69,9 +69,16 @@ height: auto;
 
 .image-actions {
 
-text-align: center; 
+text-align: center; }
 
+.author-image img {
+    width: 60%;
+    height: 320px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    transition: opacity 0.2s ease-in-out;
 }
+
 
 .image-actions-icons {
 
@@ -90,7 +97,7 @@ text-align: center;
 
 .main {
 
-    width; 100%;
+    width: 100%;
     height: auto; 
 }
 
